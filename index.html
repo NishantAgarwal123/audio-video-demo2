@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio / Video tags demo</title>
+    <style>
+        p{
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is demo of Audio/ video tags</h1>
+    <hr>
+    <h2>Audio</h2>
+    <h3>MP3 FILE</h3>
+    <p>audio with controls</p>
+    <audio controls>
+        <source src="./mp3 audio.mp3" type="audio/mp3">does not support
+    </audio> <br>
+
+    <p>without controls</p>
+    <audio>
+        <source src="./mp3 audio.mp3" type="audio/mp3">does not support
+    </audio> <br>
+
+    <p>with controls, muted, autoplay, loop attributes applied on audio tag</p>
+    <audio controls muted autoplay loop>
+        <source src="./mp3 audio.mp3" type="audio/mp3">does not support
+    </audio> <br>
+    <hr>
+
+    <h2>Video</h2>
+    <h3>mp4 FILE</h3>
+    <p>video with controls</p>
+    <video controls>
+        <source src="./mp4 video.mp4" type="video/mp4">does not support
+    </video> <br>
+
+    <p>without controls</p>
+    <video>
+        <source src="./mp4 video.mp4" type="video/mp4">does not support
+    </video> <br>
+
+    <p>with controls, muted, autoplay, loop attributes applied on video tag</p>
+    <video controls muted autoplay loop>
+        <source src="./mp4 video.mp4" type="video/mp4">does not support
+    </video> <br>
+</body>
+
+</html>
